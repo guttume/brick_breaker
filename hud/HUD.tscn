@@ -31,8 +31,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 800.0
-margin_bottom = 600.0
+margin_left = -1.0
+margin_top = 1.0
+margin_right = 799.0
+margin_bottom = 601.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -42,7 +44,6 @@ size_flags_vertical = 1
 
 [node name="ScoreText" type="HBoxContainer" parent="." index="0"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -87,7 +88,7 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -127.5
-margin_top = -20.0
+margin_top = 50.0
 margin_right = 127.5
 margin_bottom = 20.0
 rect_pivot_offset = Vector2( 0, 0 )
@@ -97,6 +98,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 alignment = 0
+_sections_unfolded = [ "Margin" ]
 
 [node name="GameOverText" type="Label" parent="VBoxContainer" index="0"]
 
@@ -104,7 +106,7 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 288.0
+margin_right = 262.0
 margin_bottom = 58.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -122,13 +124,13 @@ _sections_unfolded = [ "custom_fonts" ]
 
 [node name="StartText" type="Label" parent="VBoxContainer" index="1"]
 
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 62.0
-margin_right = 288.0
-margin_bottom = 82.0
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -131.0
+margin_top = -20.0
+margin_right = 131.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -136,7 +138,7 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
 custom_fonts/font = SubResource( 3 )
-text = "Press \"Left\" or \"Right\" arrow key to start"
+text = "Press 'SPACE' to start"
 align = 1
 percent_visible = 1.0
 lines_skipped = 0
